@@ -5,7 +5,16 @@ function App () {
     const [book, setBooks] = useState([]);
 
     const handleCreateBook = (title) => {
-        console.log('Need to add book with', title);
+        const newBook = [
+            ...book,
+            {
+                id: book.length + 1,
+                title: title
+            }
+        ]
+        setBooks(newBook);
+        console.log('book created');
+        console.log(book.length + 1);
     };
 
     return (
