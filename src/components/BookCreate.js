@@ -20,8 +20,7 @@ function BookCreate({ onBookCreate }) {
             <label>
                 Title
             </label>
-            <input className="input" value={title} onChange={handleChange}>
-            </input>
+            <input className="input" value={title} onChange={handleChange} />
             <button className="button">
                 Create
             </button>
