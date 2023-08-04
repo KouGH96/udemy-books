@@ -1,6 +1,8 @@
 # About the app
 This is a simple reading list app, React frontend, Json Server backend. Users are able to add book titles to their reading list. Images are auto generated.
 
+Edit Aug 3, working on creating api.
+
 ## Available Scripts
 
 In the project directory, you can run:
